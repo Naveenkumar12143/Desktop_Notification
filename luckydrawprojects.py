@@ -33,7 +33,7 @@ def rand_guess():
         else:
             # If user's choice doesn't match, win-condition then it is printed
             print("Wrong Guess!")
-        #         # Decrementing number of guesses left by 1
+                 # Decrementing number of guesses left by 1
         guess_left -= 1  # guess_left = guess_left  - 1 ( assignment operator)
     # If win-condition is satisfied then, the function rand_guess returns True
     if flag == 1:
